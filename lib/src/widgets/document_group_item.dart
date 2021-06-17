@@ -3,7 +3,7 @@ import 'package:flutter_tex/src/models/widget_meta.dart';
 import 'package:flutter_tex/src/utils/strings_util.dart';
 import 'package:flutter_tex/src/utils/style_utils.dart';
 
-class TeXViewDocumentGroupItem extends TeXViewWidget {
+class TeXViewDocumentRadio extends TeXViewWidget {
   final String? id;
 
   /// Raw String containing HTML and TEX Code e.g. r"""$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$<br> """
@@ -16,7 +16,7 @@ class TeXViewDocumentGroupItem extends TeXViewWidget {
   /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? style;
 
-  const TeXViewDocumentGroupItem(
+  const TeXViewDocumentRadio(
     this.data, {
     this.id,
     this.style,
